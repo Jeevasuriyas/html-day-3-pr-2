@@ -1,0 +1,119 @@
+
+head{
+    align-items: normal;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    background-color: rgb(66, 59, 186);
+}            
+
+
+#pig-face {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color: rgb(187, 114, 127);
+    border-radius: 50%;
+    border: 5px solid black;
+}
+#h1{
+    top: -150px;
+    left: 100px;
+}
+
+#eye-left, #eye-right {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    background-color: white;
+    border-radius: 50%;
+    border: 5px solid black;
+}
+
+#eye-left {
+    top: 100px;
+    left: 80px;
+}
+
+#eye-right {
+    top: 100px;
+    right: 80px;
+}
+
+#pupil-left, #pupil-right {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+#pupil-left {
+    top: 20px;
+    left: 20px;
+}
+
+#pupil-right {
+    top: 20px;
+    left: 20px;
+}
+
+#nose {
+    position: absolute;
+    width: 150px;
+    height: 60px;
+    background-color: red;
+    border: 3px solid rgb(190, 134, 134);
+    border-radius: 50px / 30px;
+    top: 250px;
+    left: 120px;
+}
+
+#nostril-left, #nostril-right {
+    position: absolute;
+    width: 20px;
+    height: 30px;
+    background-color: rgb(7, 87, 26);
+    border-radius: 50%;
+}
+
+#nostril-left {
+    top: 15px;
+    left: 20px;
+}
+
+#nostril-right {
+    top: 15px;
+    right: 20px;
+}
+
+#ear-left{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(223, 26, 200);
+    border: 3px solid black;
+    border-radius: 10px 100px 10px 100px;
+}
+#ear-right {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(223, 26, 200);
+    border: 3px solid black;
+    border-radius: 100px 10px 100px 10px;
+}
+
+#ear-left {
+    top: -40px;
+    left: 15px;
+}
+
+#ear-right {
+    top: -40px;
+    right: 20px;
+
